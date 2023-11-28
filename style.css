@@ -159,7 +159,7 @@ p {
 .statement {
     margin-top: 1%;
     margin-bottom: 1%;
-    font-size: 18px;
+    font-size: 30px;
     color: #000000;/*color de fuente statement*/
     padding: 0 1%; /*controla los márgenes del texto*/
 }
