@@ -84,7 +84,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 60vh;/*viewport height*/
-    background: url(imagenes/fondo.png) no-repeat center;
+    background: url(imagenes/17.jpg) no-repeat center;
     filter: saturate(120%);
     background-size: cover;
 }
@@ -139,9 +139,10 @@ p {
 /*color y texto de los botones*/
 .btn {
     display: inline-block;
+    font-size: 20px;
     margin-top: 15px;
     padding: 10px 40px;
-    border: 2px solid #ffA500;
+    border: 6px solid #ffA500;
     color: #fff;
     text-decoration: none;
     background: #ffA500;
@@ -156,7 +157,7 @@ p {
 
 /*SECCIÓN PARA EL STATEMENT*/
 /*estilo de texto para la caja del statement*/
-.statement {
+.statemento {
     margin-top: 1%;
     margin-bottom: 1%;
     font-size: 30px;
@@ -254,13 +255,13 @@ filter: saturate(120%);
 
 .imagen-principal{
     width: 60%;
-    object-fit: cover;
+    object-fit: flex;
     display: block;
 }
 
 .lista-imagenes img {
     width: 60%;
-    object-fit: cover;
+    object-fit: flex;
     margin-right: 10px;
     display: block;
 }
