@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font size: 100;
+    font size: 100px;
     vertical-align: baseline;
     
 }
@@ -95,7 +95,7 @@ body {
     align-items: center;
     margin-top: 100px;
     margin-bottom: 40px;
-    font-size: 60px;
+    font-size: 15vh;
     font-weight: 600;
     text-transform: uppercase;
     color: #fff;
@@ -124,7 +124,7 @@ body {
 }*/
 
 /*Color y tamaño de fuente de página*/
-p {
+.texto {
     text-align: justify;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -135,17 +135,32 @@ p {
     padding: 0 100px;
 }
 
+/*Texto de página con columnas*/
+.textop {
+    text-align: justify;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 7 vh;
+    color: #000000;/*color de fuente de la página*/
+    padding: 0 5 vh;
+    
+}
 
 /*color y texto de los botones*/
 .btn {
+    font-family: 'Josefine sans', serif;
     display: inline-block;
-    font-size: 20px;
-    margin-top: 15px;
-    padding: 10px 40px;
-    border: 6px solid #ffA500;
+    font-size: 3vh;
+    margin-top: 4vh;
+    padding: 1vh 3vh;
+    border: 1vh solid #ffA500;
+    border-radius: 3vh ;
     color: #fff;
     text-decoration: none;
     background: #ffA500;
+
 }
 
 /*estilo para cuando el cursor esté sobre el botón*/
@@ -157,10 +172,10 @@ p {
 
 /*SECCIÓN PARA EL STATEMENT*/
 /*estilo de texto para la caja del statement*/
-.statemento {
+.text {
     margin-top: 1%;
     margin-bottom: 1%;
-    font-size: 30px;
+    font-size: 3vh;
     color: #000000;/*color de fuente statement*/
     padding: 0 1%; /*controla los márgenes del texto*/
 }
@@ -199,17 +214,18 @@ p {
 /*efectos para las fotos de perfil de los integrantes del equipo*/
 /*color para el nombre de los integrantes del equipo*/
 .name{
-    margin-top: 40px;
-    margin-bottom: 10px;
-    font-size: 35px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    text-align: center;
+    font-size: 5vh;
     font-weight: 100;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.952)
 }
 .foto{
     width: 18%;
-    margin-top: 0px;
-    margin-bottom: 8px; 
+    margin-top: 5vh;
+    margin-bottom: 2vh; 
     filter: 100%;  /*opacity(80%);*/
 }
 /*.foto:hover{
@@ -232,16 +248,25 @@ filter: saturate(120%);
 /*la sección de contacto es para las dos líneas de texto antes de la despedida*/
 .contacto {
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 30px;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    font-size: 3vh;
+    color: #000000;
+    padding: 0 100px;   
+}
+
+.contacto2 {
+    text-align: center;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    font-size: 3vh;
     color: #000000;
     padding: 0 100px;   
 }
 .despedida{
-    margin-top: 70px;
+    margin-top: 7vh;
     margin-bottom: 70px;/*separación entre el título y el texto*/
-    font-size: 30px;/*tamaño de la fuente*/
+    font-size: 5vh;/*tamaño de la fuente*/
     font-weight: 200;/*grosor de la fuente*/
     text-transform: uppercase;/*tipo de letra*/
     color: #000000;
@@ -255,14 +280,24 @@ filter: saturate(120%);
 
 .imagen-principal{
     width: 60%;
+    margin-top: 4vh;
     object-fit: flex;
     display: block;
 }
 
+.imagen-statement{
+    width: 40%;
+    margin-top: 1vh;
+    object-position: right;
+    display: lock;
+}
+
+
 .lista-imagenes img {
     width: 60%;
     object-fit: flex;
-    margin-right: 10px;
+    margin-top: 4vh;
+    margin-right: 2vh;
     display: block;
 }
 
@@ -271,4 +306,16 @@ filter: saturate(120%);
     overflow-y: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.f-enlaces {
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+    font-size: 3vh;
+    rgba(0, 0, 0, 0.952)
+    padding: 0 100px;   }
+
+.col-sm-2 col-md-6 col-lg-6 {
+    text-align: justify;
 }
